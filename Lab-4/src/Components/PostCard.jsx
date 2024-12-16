@@ -1,8 +1,8 @@
 export default function PostCard({ title, body }) {
   return (
     <div>
-      <h3>{title}</h3>
-      <p>{body}</p>
+      <h2>{title}</h2>
+      <h3>{body}</h3>
     </div>
   );
 }

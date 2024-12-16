@@ -2,7 +2,7 @@ export default function PostForm({ newPost, handleOnChange, handleOnSubmit }) {
   return (
     <div>
       <form action="" onSubmit={handleOnSubmit}>
-        <label htmlFor="title">Title:</label>
+        <label htmlFor="title">title:</label>
         <input
           type="text"
           id="title"
@@ -11,7 +11,7 @@ export default function PostForm({ newPost, handleOnChange, handleOnSubmit }) {
           value={newPost.title}
         />
         <br />
-        <label htmlFor="body">Body:</label>
+        <label htmlFor="body">text :</label>
         <input
           type="text"
           id="body"
